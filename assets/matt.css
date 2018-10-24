@@ -262,13 +262,8 @@ header {
   top: 0px;
   /* overflow: hidden; */
 }
-@media only screen 
-  and (device-width: 375px)
-  and (device-height: 812px) 
-  and (:-webkit-device-pixel-ratio: )
-  and (orientation: portrait) {
 /* changed this from the tutorial video to
-   allow it to gain focus, making it tabbable */
+allow it to gain focus, making it tabbable */
 .nav-toggle {
   position: absolute !important;
   top: -9999px !important;
@@ -325,6 +320,11 @@ nav {
   transform-origin: top;
   transition: transform 400ms ease-in-out;
 }
+@media only screen 
+  and (device-width: 375px)
+  and (device-height: 812px) 
+  and (:-webkit-device-pixel-ratio: )
+  and (orientation: portrait) {
 
 nav ul {
   margin: 0;
