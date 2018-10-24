@@ -239,7 +239,7 @@ img {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .top {
     grid-template-areas:
       "hero"
@@ -254,8 +254,9 @@ header {
   text-align: center;
   z-index: 999;
   width: 100%;
-  margin-bottom: 10px;
-  padding: 10px;
+  /* margin-bottom: 10px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
   position: sticky;
   top: 0px;
   /* overflow: hidden; */
@@ -357,11 +358,11 @@ nav a:hover {
   .nav-toggle-label {
     display: none;
   }
+  
 
   header {
     display: grid;
     grid-template-columns: 1fr auto minmax(400px, 1fr) 1fr;
-    font-size: 1em
   }
   
   .logo {
