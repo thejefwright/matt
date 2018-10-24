@@ -262,7 +262,11 @@ header {
   top: 0px;
   /* overflow: hidden; */
 }
-
+@media only screen 
+  and (device-width: 375px)
+  and (device-height: 812px) 
+  and (:-webkit-device-pixel-ratio: )
+  and (orientation: portrait) {
 /* changed this from the tutorial video to
    allow it to gain focus, making it tabbable */
 .nav-toggle {
@@ -354,7 +358,7 @@ nav a:hover {
   opacity: 1;
   transition: opacity 250ms ease-in-out 250ms;
 }
-
+}
 @media screen and (min-width: 800px) {
   .nav-toggle-label {
     display: none;
