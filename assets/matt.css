@@ -361,6 +361,7 @@ nav a:hover {
   header {
     display: grid;
     grid-template-columns: 1fr auto minmax(400px, 1fr) 1fr;
+    font-size: 1em
   }
   
   .logo {
