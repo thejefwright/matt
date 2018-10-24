@@ -49,8 +49,8 @@ img {
 
 .hero {
   grid-area: hero;
-  min-height: 500px;
-  min-width: 500px;
+  min-height: 400px;
+  min-width: 375px;
   background: white url(images/49A3106.jpg);
   background-size: cover;
   background-position: top center;
