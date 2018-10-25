@@ -172,11 +172,13 @@ img {
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-rows: 400px;
+  align-items: center;
   /* overflow: hidden; */
   /* max-width: 300px; */
 }
 
 .gallery img {
+  
   /* width: 100%; */
   /* max-height: 400px; */
 }
