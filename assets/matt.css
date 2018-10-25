@@ -15,6 +15,10 @@ body {
     font-family: SEGA LOGO FONT;
     font-weight: 100;
     font-size: 1.75em;
+  }
+.logo a {
+    text-decoration: none;
+    color: blue;
 }
 
 button {
